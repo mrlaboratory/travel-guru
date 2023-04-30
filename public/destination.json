@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Cox's Bazar",
+      "description": "Cox's Bazar is a seaside town located in the southeastern part of Bangladesh. It is known for its long, sandy beach which stretches for 120 kilometers. It is one of the most popular tourist destinations in Bangladesh, attracting both local and international visitors.",
+      "image_url": "https://example.com/coxs-bazar.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sundarbans",
+      "description": "The Sundarbans is a vast mangrove forest located in the southwestern part of Bangladesh, and is home to the famous Royal Bengal Tiger. It is a UNESCO World Heritage Site and is also one of the largest reserves for the Bengal tiger in the world.",
+      "image_url": "https://example.com/sundarbans.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Srimangal",
+      "description": "Srimangal is a town located in the northeastern part of Bangladesh, and is known as the tea capital of the country. It is surrounded by lush green tea gardens and is home to several tea estates. The town is also known for its beautiful natural scenery and wildlife.",
+      "image_url": "https://example.com/srimangal.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Rangamati",
+      "description": "Rangamati is a hill district located in the southeastern part of Bangladesh. It is known for its scenic beauty, lush green hills, and beautiful waterfalls. It is also home to several indigenous communities, making it a great place to experience the local culture and traditions.",
+      "image_url": "https://example.com/rangamati.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bandarban",
+      "description": "Bandarban is another hill district located in the southeastern part of Bangladesh. It is known for its natural beauty, with its many waterfalls, caves, and scenic hiking trails. It is also home to several indigenous communities, making it a great place to experience local culture and traditions.",
+      "image_url": "https://example.com/bandarban.jpg"
+    }
+  ]
