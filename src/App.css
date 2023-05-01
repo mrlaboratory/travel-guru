@@ -14,3 +14,10 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.469);
 }
+
+.desktop .dialog-date-picker.open {
+  position: fixed !important;
+  width: 100% !IMPORTANT;
+  top: 0px !IMPORTANT;
+  left: 0px !IMPORTANT;
+}
