@@ -13,6 +13,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { useRef } from 'react';
 
 
 
@@ -35,10 +36,13 @@ const Slider = () => {
   }, [])
   const current = data.find(m=> m.id == running)
   console.log(current)
-  const swiper = useSwiper();
+
+  const swiper = useRef(null);
   const handlePrev = () => {
     if(running == 1){
       setRunning(data.length)
+      swiper.current.swiper.slidePrev();
+   
     }else{
       const rr = running-1
       setRunning(rr)
@@ -48,6 +52,7 @@ const Slider = () => {
   const handleNext = () => {
     if(data.length == running){
       setRunning(1)
+      swiper.current.swiper.slideNext();
     }else{
       const rr = running+1
       setRunning(rr)
@@ -70,6 +75,8 @@ const Slider = () => {
               slidesPerView={3}
               navigation
               pagination={{ clickable: true }}
+              freeMode={true}
+              loop={true}
               scrollbar={{ draggable: true }}
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log('slide change')}
