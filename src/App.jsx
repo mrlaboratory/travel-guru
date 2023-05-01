@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='main-bg'>
       <div className='bg-layer'>
-        <div className='container mx-auto'>
+        <div className='container mx-auto flex flex-col justify-center h-screen'>
           <Header></Header>
           <Outlet></Outlet>
         </div>
